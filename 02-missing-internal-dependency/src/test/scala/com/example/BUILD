@@ -4,6 +4,9 @@ scala_specs2_junit_test(
     name = "scala_example_test",
     size = "small",
     srcs = ["ExampleTest.scala"],
+<<<<<<< HEAD
     deps = [],
+=======
+>>>>>>> second exercise
     suffixes = ["Test"],
 )
