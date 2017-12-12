@@ -5,8 +5,12 @@ scala_specs2_junit_test(
     size = "small",
     srcs = ["ExampleTest.scala"],
 <<<<<<< HEAD
+<<<<<<< HEAD
     deps = [],
 =======
 >>>>>>> second exercise
+=======
+    deps = [],
+>>>>>>> add readme
     suffixes = ["Test"],
 )
