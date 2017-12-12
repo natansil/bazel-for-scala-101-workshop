@@ -6,5 +6,5 @@ scala_library(
     srcs=[
         "Example.scala",
         ],
-    deps=[],
+    deps=["@com_google_guava_guava//jar"],
 )

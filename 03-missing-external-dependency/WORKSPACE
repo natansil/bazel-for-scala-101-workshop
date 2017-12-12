@@ -13,3 +13,8 @@ scala_repositories()
 load("@io_bazel_rules_scala//specs2:specs2_junit.bzl","specs2_junit_repositories")
 specs2_junit_repositories()
 
+maven_jar(
+    name = "com_google_guava_guava",
+    artifact = "com.google.guava:guava:18.0",
+    sha1 = "cce0823396aa693798f8882e64213b1772032b09",
+)
