@@ -2,6 +2,13 @@
 
 In this exercise, the build of target `a` fails due to missing direct dependency on target `c`.
 
+Error message:
+```
+error: Target '//src/main/scala/com/example:c' is used but isn't explicitly declared, please add it to the deps.
+You can use the following buildozer command:
+buildozer 'add deps //src/main/scala/com/example:c' //src/main/scala/com/example:a
+```
+
 The current **target** dependency graph is `a -> b -> c` 
 
 while the **code** dependnecy graph is 
