@@ -1,0 +1,1 @@
+build --strict_java_deps=error
