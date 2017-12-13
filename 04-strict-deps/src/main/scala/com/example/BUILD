@@ -6,7 +6,7 @@ scala_library(
     srcs=[
         "A.scala",
         ],
-    deps = ["b"],    
+    deps = ["b", "c"],    
 )
 
 scala_library(
