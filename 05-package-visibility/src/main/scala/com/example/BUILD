@@ -4,5 +4,6 @@ scala_library(
     name="scala_example",
     srcs=[
         "Example.scala",
-        ]
+        ],
+    visibility = ["//visibility:public"],
 )
