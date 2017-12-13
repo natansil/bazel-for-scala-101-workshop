@@ -7,7 +7,7 @@ Follow the instructions of this [manual](https://docs.google.com/document/d/1nd2
 ## general guidelines
 
 Open each exercise seperatly (on intellij or any other ide/editor you prefer)
-First run `baze build //...` to see the failure, before you try to solve the issue
+First run `bazel build //...` to see the failure, before you try to solve the issue
 
 ## Exercises
 1. [rules_scala](https://github.com/natansil/bazel-101-workshop/tree/master/01-rules-scala)
