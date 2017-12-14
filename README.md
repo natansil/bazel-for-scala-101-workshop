@@ -12,6 +12,9 @@ First run `bazel build //... --experimental_repository_cache="/tmp"` to see the 
 (Note: Each exercise is in a completely indepedant bazel workspace (which means dependency repo fetching could have ocurred for each exercise)
 `experimental_repository_cache` speeds up fetching by caching `rules_scala` repo for all workspaces)
 
+## Pre-Exercise
+0. [hello world](https://github.com/natansil/bazel-101-workshop/tree/master/00-hello-world)
+
 ## Exercises
 1. [rules_scala](https://github.com/natansil/bazel-101-workshop/tree/master/01-rules-scala)
 2. [missing internal dependency](https://github.com/natansil/bazel-101-workshop/tree/master/02-missing-internal-dependency)
