@@ -18,3 +18,4 @@ First run `bazel build //... --experimental_repository_cache="/tmp"` to see the 
 3. [missing external dependency](https://github.com/natansil/bazel-101-workshop/tree/master/03-missing-external-dependency)
 4. [strict deps failure](https://github.com/natansil/bazel-101-workshop/tree/master/04-strict-deps)
 5. [visibility](https://github.com/natansil/bazel-101-workshop/tree/master/05-package-visibility)
+6. [test size](https://github.com/natansil/bazel-101-workshop/tree/master/06-test-size)
