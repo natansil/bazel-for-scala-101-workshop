@@ -11,12 +11,14 @@ http_archive(
 )
 
 rules_scala_version="8f006056990307cbd8320c97a59cd09c821011d8"
+rules_scala_version_sha256="e85c1d64520554e0dcdfe828e16ff604de0774b0c68dbb0e90ffab1a6b045adf"
 
 http_archive(
              name = "io_bazel_rules_scala",
              url = "https://github.com/bazelbuild/rules_scala/archive/%s.zip"%rules_scala_version,
              type = "zip",
              strip_prefix= "rules_scala-%s" % rules_scala_version
+             sha256 = rules_scala_version_sha256,
              )
 
 load("@io_bazel_rules_scala//scala:scala.bzl", "scala_repositories")
